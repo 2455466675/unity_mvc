@@ -102,7 +102,7 @@ namespace MVC
         {
             if (string.Equals(value1, value2))
             {
-                return false;
+                return true;
             }
 
             if (float.TryParse(value1, out float result1) && float.TryParse(value2, out float result2))
@@ -152,7 +152,7 @@ namespace MVC
         {
             if (string.Equals(value1, value2))
             {
-                return false;
+                return true;
             }
 
             if (float.TryParse(value1, out float result1) && float.TryParse(value2, out float result2))
