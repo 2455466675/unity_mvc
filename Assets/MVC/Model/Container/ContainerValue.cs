@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Text;
 
 namespace MVC
@@ -12,7 +11,7 @@ namespace MVC
 	{
         private Dictionary<string, IDataModel> container;
 
-        public ContainerValue()
+        internal ContainerValue()
         {
             container = new Dictionary<string, IDataModel>();
         }

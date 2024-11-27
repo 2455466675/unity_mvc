@@ -15,7 +15,7 @@ namespace MVC
         private string stringValue;
         private event Action OnValueChanged;
 
-        public BaseValue(Action onValueChanged)
+        internal BaseValue(Action onValueChanged)
         {
             Bind(onValueChanged);
         }

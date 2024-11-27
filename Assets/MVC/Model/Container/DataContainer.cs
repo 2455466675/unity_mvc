@@ -43,7 +43,7 @@ namespace MVC
 
         private DataProxy proxy;
 
-        public DataContainer()
+        internal DataContainer()
         {
             value = new ContainerValue();
         }

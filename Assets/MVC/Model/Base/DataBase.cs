@@ -10,22 +10,22 @@ namespace MVC
     {
         public override ValueType ValueType => value.ValueType;
 
-        public DataBase(int intValue)
+        internal DataBase(int intValue)
         {
             value = new BaseValue(NotifyChanged);
             IntValue = intValue;
         }
-        public DataBase(bool boolValue)
+        internal DataBase(bool boolValue)
         {
             value = new BaseValue(NotifyChanged);
             BoolValue = boolValue;
         }
-        public DataBase(float floatValue)
+        internal DataBase(float floatValue)
         {
             value = new BaseValue(NotifyChanged);
             FloatValue = floatValue;
         }
-        public DataBase(string stringValue)
+        internal DataBase(string stringValue)
         {
             value = new BaseValue(NotifyChanged);
             StringValue = stringValue;

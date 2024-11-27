@@ -1388,7 +1388,6 @@ MonoBehaviour:
   dataSet: {fileID: 1490909407}
   fields:
   - id
-  text: {fileID: 1010526780}
 --- !u!1 &1062253382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,7 +2451,6 @@ MonoBehaviour:
   dataSet: {fileID: 1490909407}
   fields:
   - count
-  text: {fileID: 2033474330}
 --- !u!1 &2044762432
 GameObject:
   m_ObjectHideFlags: 0
@@ -2604,7 +2602,6 @@ MonoBehaviour:
   dataSet: {fileID: 110058602}
   fields:
   - count
-  text: {fileID: 2044762434}
 --- !u!114 &2044762437
 MonoBehaviour:
   m_ObjectHideFlags: 0

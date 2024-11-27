@@ -15,7 +15,7 @@ namespace MVC
         private List<DataContainer> collection;
 
         private event Action OnValueChanged;
-        public CollectionValue(Action onValueChanged)
+        internal CollectionValue(Action onValueChanged)
         {
             collection = new List<DataContainer>();
             Bind(onValueChanged);

@@ -37,8 +37,8 @@ namespace MVC
         }
 
         public DataContainer this[int index] => Get(index);
-        
-        public DataCollection()
+
+        internal DataCollection()
         {
             value = new CollectionValue(NotifyChanged);
         }
